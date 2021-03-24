@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="Skocko.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Skocko"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:Skocko"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/Images/Background.jpg" AlignmentX="Center" AlignmentY="Center"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.40*"/>
+            <ColumnDefinition Width="0.60*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.8*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <views:MainGrid x:Name="mainGrid" Grid.Column="0"></views:MainGrid>
+            <views:MainGrid x:Name="finalGrid" Grid.Row="1"></views:MainGrid>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.8*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.7*"/>
+                </Grid.ColumnDefinitions>
+                <!--<Grid Grid.Column="0" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RowDefinitions/>
+                    <Grid.RenderTransform>
+                        <RotateTransform Angle="90"/>
+                    </Grid.RenderTransform>
+                    <views:MyTimer x:Name="timerView" Grid.Row="0" Margin="-120,0,-120,0"/>
+                </Grid>-->
+                <views:MainGrid x:Name="resultGrid" Grid.Column="1"></views:MainGrid>
+            </Grid>
+            <views:ControlGrid x:Name="control" Grid.Row="1"></views:ControlGrid>
+        </Grid>
+
+    </Grid>
+
+
+</Page>

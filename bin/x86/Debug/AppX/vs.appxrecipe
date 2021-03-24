@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-LVF7V7O</Machine>
+    <WindowsUser>chara</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0</PackageIdentityName>
+    <PackageIdentityPublisher>CN=chara</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\chara\source\repos\Skocko\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\chara\source\repos\Skocko\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>1FF922F9F1F572D829C8E9169FBC22DFF7AC12925DCE6FA64B676D6ADB7EC04A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0_1.0.0.0_x86__qchz9ejqnp336</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0_qchz9ejqnp336!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=chara</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-24T15:43:34.054</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Skocko.exe">
+      <PackagePath>entrypoint\Skocko.exe</PackagePath>
+      <Modified>2021-03-24T15:43:33.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-27T18:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\Background.jpg">
+      <PackagePath>Assets\Images\Background.jpg</PackagePath>
+      <Modified>2021-03-24T06:26:43.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\blueCircle.png">
+      <PackagePath>Assets\Images\blueCircle.png</PackagePath>
+      <Modified>2021-03-23T09:26:36.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\club.png">
+      <PackagePath>Assets\Images\club.png</PackagePath>
+      <Modified>2021-03-22T13:52:01.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\diamond.png">
+      <PackagePath>Assets\Images\diamond.png</PackagePath>
+      <Modified>2021-03-22T13:52:01.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\heart.png">
+      <PackagePath>Assets\Images\heart.png</PackagePath>
+      <Modified>2021-03-22T13:52:01.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\redCircle.png">
+      <PackagePath>Assets\Images\redCircle.png</PackagePath>
+      <Modified>2021-03-22T16:08:18.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\skocko.png">
+      <PackagePath>Assets\Images\skocko.png</PackagePath>
+      <Modified>2021-03-23T07:32:56.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\spade.png">
+      <PackagePath>Assets\Images\spade.png</PackagePath>
+      <Modified>2021-03-22T16:01:05.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\square.png">
+      <PackagePath>Assets\Images\square.png</PackagePath>
+      <Modified>2021-03-22T16:03:12.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\star.png">
+      <PackagePath>Assets\Images\star.png</PackagePath>
+      <Modified>2021-03-22T13:52:01.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Images\yellowCircle.png">
+      <PackagePath>Assets\Images\yellowCircle.png</PackagePath>
+      <Modified>2021-03-22T13:52:01.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-11-09T16:40:50.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-11-09T16:40:50.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-11-09T16:40:50.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-11-09T16:40:50.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-11-09T16:40:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-11-09T16:40:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-11-09T16:40:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-03-22T10:03:58.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Skocko.xr.xml">
+      <PackagePath>Skocko.xr.xml</PackagePath>
+      <Modified>2021-03-24T15:43:32.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-03-24T15:43:32.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\ControlGrid.xbf">
+      <PackagePath>ControlGrid.xbf</PackagePath>
+      <Modified>2021-03-24T15:43:32.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\MainGrid.xbf">
+      <PackagePath>MainGrid.xbf</PackagePath>
+      <Modified>2021-03-24T15:43:32.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-03-24T15:43:32.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\MyTimer.xbf">
+      <PackagePath>MyTimer.xbf</PackagePath>
+      <Modified>2021-03-24T15:43:32.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T16:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-03-24T06:54:12.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Core\Skocko.exe">
+      <PackagePath>Skocko.exe</PackagePath>
+      <Modified>2021-03-24T15:43:34.038</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
