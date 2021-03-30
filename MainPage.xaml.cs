@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Windows.System;
-using Windows.UI;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -285,35 +284,38 @@ namespace Skocko
             Button button = (Button)sender;
             Image image = (Image)gameGrid.Children.ElementAt(nextToChange);
             int index = buttonList.IndexOf(button);
-            if (index == (int)Type.Heart)
+            if (nextToChange <= counter)
             {
-                currentList[nextToChange % 4] = Type.Heart;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/heart.png"));
-            }
-            else if (index == (int)Type.Club)
-            {
-                currentList[nextToChange % 4] = Type.Club;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/club.png"));
-            }
-            else if (index == (int)Type.Spade)
-            {
-                currentList[nextToChange % 4] = Type.Spade;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/spade.png"));
-            }
-            else if (index == (int)Type.Diamond)
-            {
-                currentList[nextToChange % 4] = Type.Diamond;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/diamond.png"));
-            }
-            else if (index == (int)Type.Star)
-            {
-                currentList[nextToChange % 4] = Type.Star;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/star.png"));
-            }
-            else
-            {
-                currentList[nextToChange % 4] = Type.Skocko;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/skocko.png"));
+                if (index == (int)Type.Heart)
+                {
+                    currentList[nextToChange % 4] = Type.Heart;
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/heart.png"));
+                }
+                else if (index == (int)Type.Club)
+                {
+                    currentList[nextToChange % 4] = Type.Club;
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/club.png"));
+                }
+                else if (index == (int)Type.Spade)
+                {
+                    currentList[nextToChange % 4] = Type.Spade;
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/spade.png"));
+                }
+                else if (index == (int)Type.Diamond)
+                {
+                    currentList[nextToChange % 4] = Type.Diamond;
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/diamond.png"));
+                }
+                else if (index == (int)Type.Star)
+                {
+                    currentList[nextToChange % 4] = Type.Star;
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/star.png"));
+                }
+                else
+                {
+                    currentList[nextToChange % 4] = Type.Skocko;
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/skocko.png"));
+                }
             }
             if (counter < 23)
             {
