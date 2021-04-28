@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\chara\source\repos\Skocko\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1FF922F9F1F572D829C8E9169FBC22DFF7AC12925DCE6FA64B676D6ADB7EC04A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>21F5816CBC8FE4ABFDACCEC4081A19A9D731B3C6AC2E7E95EF61A3CB41EE214B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0_1.0.0.0_x86__qchz9ejqnp336</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0_qchz9ejqnp336!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b8741830-2f7f-4ab4-a2c3-5cd457e32dd0</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-30T08:58:45.811</Modified>
+      <Modified>2021-04-28T17:55:04.561</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Skocko.exe">
       <PackagePath>entrypoint\Skocko.exe</PackagePath>
-      <Modified>2021-03-30T08:58:44.714</Modified>
+      <Modified>2021-04-28T17:55:02.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,6 +90,231 @@
       <PackagePath>Assets\Images\yellowCircle.png</PackagePath>
       <Modified>2021-03-22T13:52:01.093</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.666</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:22.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:19.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:21.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:22.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:22.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:22.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:22.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:22.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-03-30T15:12:20.322</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-11-09T16:40:50.266</Modified>
@@ -97,32 +322,27 @@
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T16:40:50.266</Modified>
+      <Modified>2021-03-30T15:12:21.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T16:40:50.266</Modified>
+      <Modified>2021-03-30T15:12:19.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T16:40:50.266</Modified>
+      <Modified>2021-03-30T15:12:20.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T16:40:50.281</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T16:40:50.281</Modified>
+      <Modified>2021-03-30T15:12:21.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-09T16:40:50.281</Modified>
+      <Modified>2021-03-30T15:12:20.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -134,23 +354,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-30T08:56:16.412</Modified>
+      <Modified>2021-04-28T17:55:02.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\ControlGrid.xbf">
       <PackagePath>ControlGrid.xbf</PackagePath>
-      <Modified>2021-03-30T08:56:16.412</Modified>
+      <Modified>2021-04-28T17:55:02.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\MainGrid.xbf">
       <PackagePath>MainGrid.xbf</PackagePath>
-      <Modified>2021-03-30T08:56:16.413</Modified>
+      <Modified>2021-04-28T17:55:02.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-30T08:56:16.413</Modified>
+      <Modified>2021-04-28T17:55:02.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\MyTimer.xbf">
       <PackagePath>MyTimer.xbf</PackagePath>
-      <Modified>2021-03-30T08:56:16.413</Modified>
+      <Modified>2021-04-28T17:55:02.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -158,11 +378,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-24T06:54:12.377</Modified>
+      <Modified>2021-03-30T15:12:59.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chara\source\repos\Skocko\bin\x86\Debug\Core\Skocko.exe">
       <PackagePath>Skocko.exe</PackagePath>
-      <Modified>2021-03-30T08:58:45.789</Modified>
+      <Modified>2021-04-28T17:55:04.537</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

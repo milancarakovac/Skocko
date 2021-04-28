@@ -26,6 +26,9 @@ namespace Skocko
         private int columns;
         private int counter;
         private int nextToChange;
+        private bool nextMove;
+        private bool isChecked;
+        private bool change;
 
         public MainPage()
         {
@@ -53,6 +56,9 @@ namespace Skocko
             columns = 4;
             counter = 0;
             nextToChange = counter;
+            nextMove = true;
+            isChecked = true;
+            change = false;
             CreateGrids();
             createControlGrid();
             GenerateFinalCombination();
@@ -187,8 +193,12 @@ namespace Skocko
             if (nextToChange == counter)
             {
                 Image image = (Image)sender;
-                image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/blueCircle.png"));
-                nextToChange = gameImages.IndexOf(image);
+                if (gameImages.IndexOf(image) <= counter)
+                {
+                    image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/blueCircle.png"));
+                    nextToChange = gameImages.IndexOf(image);
+                    change = true;
+                }
             }
         }
 
@@ -284,7 +294,54 @@ namespace Skocko
             Button button = (Button)sender;
             Image image = (Image)gameGrid.Children.ElementAt(nextToChange);
             int index = buttonList.IndexOf(button);
-            if (nextToChange <= counter)
+            if (nextMove)
+            {
+                if (nextToChange == counter)
+                {
+                    if (index == (int)Type.Heart)
+                    {
+                        currentList[nextToChange % 4] = Type.Heart;
+                        image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/heart.png"));
+                    }
+                    else if (index == (int)Type.Club)
+                    {
+                        currentList[nextToChange % 4] = Type.Club;
+                        image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/club.png"));
+                    }
+                    else if (index == (int)Type.Spade)
+                    {
+                        currentList[nextToChange % 4] = Type.Spade;
+                        image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/spade.png"));
+                    }
+                    else if (index == (int)Type.Diamond)
+                    {
+                        currentList[nextToChange % 4] = Type.Diamond;
+                        image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/diamond.png"));
+                    }
+                    else if (index == (int)Type.Star)
+                    {
+                        currentList[nextToChange % 4] = Type.Star;
+                        image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/star.png"));
+                    }
+                    else
+                    {
+                        currentList[nextToChange % 4] = Type.Skocko;
+                        image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/skocko.png"));
+                    }
+                }
+                if (counter < 23 && isChecked)
+                {
+                    if (nextToChange == counter)
+                        counter++;
+                    nextToChange = counter;
+                }
+                if (counter > 0 && counter%4==0)
+                {
+                    nextMove = false;
+                    isChecked = false;
+                }
+            }
+            if (change)
             {
                 if (index == (int)Type.Heart)
                 {
@@ -316,17 +373,18 @@ namespace Skocko
                     currentList[nextToChange % 4] = Type.Skocko;
                     image.Source = new BitmapImage(new Uri(BaseUri, "Assets/Images/skocko.png"));
                 }
-            }
-            if (counter < 23)
-            {
-                if(nextToChange == counter)
-                    counter++;
                 nextToChange = counter;
+                change = false;
             }
         }
 
         private bool checkScore()
         {
+            if (counter % 4 == 0)
+            {
+                nextMove = true;
+                isChecked = true;
+            }
             int yellowCircle = 0;
             int redCircle = 0;
             for (int i = 0; i < 4; i++)
